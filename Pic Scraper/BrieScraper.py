@@ -13,19 +13,19 @@ number = input("Enter the number of images in album \n")
 ynextbutton = input("Enter the y-value of nextbutton \n")
 
 def openpopup():
-    #filCords = pyautogui.locateCenterOnScreen("fil.png", grayscale = True)
-    #time.sleep(1)
-    #pyautogui.moveTo(filCords)
-    #pyautogui.move(0, 200, 1)
+    filCords = pyautogui.locateCenterOnScreen("fil.png", grayscale = True)
     time.sleep(1)
-    pyautogui.moveTo(500, 300, 1)
-    pyautogui.click()
+    pyautogui.moveTo(filCords)
+    pyautogui.move(0, 200, 1)
+    #time.sleep(1)
+    #pyautogui.moveTo(500, 300, 1)
+    #pyautogui.click()
 
 def openrightmenu():
     time.sleep(10)
-    #wordpresslogo = pyautogui.locateCenterOnScreen("wordpresslogo")
-    #pyautogui.moveTo(wordpresslogo)
-    pyautogui.moveTo(200, 200, 0.5)
+    brielarsonfan = pyautogui.locateCenterOnScreen("brielarsonfan")
+    pyautogui.moveTo(brielarsonfan)
+    #pyautogui.moveTo(200, 200, 0.5)
     pyautogui.click(button='right')
 
 def nextbutton():
