@@ -1,3 +1,3 @@
 # guiscraper
 
-This scraper is built using mainly the pyatuogui library to simply allow downloads through a browser GUI
+This scraper is built with mainly the pyatuogui library to download through a browser GUI
